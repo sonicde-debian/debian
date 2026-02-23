@@ -1,0 +1,5 @@
+Component: unstable
+Origin: SonicDE
+Label: SonicDE Debian Packages
+Architecture: amd64
+Description: Debian repository for SonicDE.

@@ -1,0 +1,65 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Origin: SonicDE
+Label: SonicDE Debian Packages
+Codename: main
+Date: Mon, 23 Feb 2026 04:04:17 UTC
+Architectures: amd64 arm64
+Components: testing unstable
+Description: Debian repository for SonicDE.
+MD5Sum:
+ 404abf41cbd679baa0ad0d0437c476f3 51050 testing/binary-amd64/Packages
+ 36ae7af65e567599b23a0dfafc14bf50 14665 testing/binary-amd64/Packages.gz
+ 1ca83ad5c5e2e14b651e43941668e03c 130 testing/binary-amd64/Release
+ 4921eece8cdcb478e8044c2baa62a2b5 51029 testing/binary-arm64/Packages
+ 0563a27a31b43636c4c5d8cc81291c11 14638 testing/binary-arm64/Packages.gz
+ f7ed296db40fdcf9044d7628d04d715b 130 testing/binary-arm64/Release
+ 1ab455093b49ee0bafbb56d3df3483e6 51085 unstable/binary-amd64/Packages
+ bcc04f7422347bf2c167523460a11808 14654 unstable/binary-amd64/Packages.gz
+ b2671b9460b26efc907f1f284a55afde 131 unstable/binary-amd64/Release
+ 27012e1cdf6f6428b0276cd91edff8e1 51064 unstable/binary-arm64/Packages
+ 24b3d8b47f548833ee93f96defcb1a75 14641 unstable/binary-arm64/Packages.gz
+ 228e3def6aa29516f64e5b1ad1797f7b 131 unstable/binary-arm64/Release
+SHA1:
+ 0d1c208f557bd6601819c2c0aec97ff763ccf034 51050 testing/binary-amd64/Packages
+ cdf6e64ac0e9b2c99dfdce6739888322abbb495a 14665 testing/binary-amd64/Packages.gz
+ a5eda526a088fb036f7f708e77590d47017d3765 130 testing/binary-amd64/Release
+ ad286d8498d47feaf9b9234b6e1349d5ebd92c78 51029 testing/binary-arm64/Packages
+ b65e5dcc7a9dc0cdb77d98c992b639fbdcac2b0c 14638 testing/binary-arm64/Packages.gz
+ 65ccd5fd8109c462a1e174d5e565bcdb8922e97c 130 testing/binary-arm64/Release
+ a3c5783cb1f4abedd8f099c2dfd98dc1b74c40b9 51085 unstable/binary-amd64/Packages
+ 1900b7b962c64ca58466dcf30642b71170467c8b 14654 unstable/binary-amd64/Packages.gz
+ 1fa5b546678f3a58ad64a195c774f4ed56910862 131 unstable/binary-amd64/Release
+ 31904b6b74db00c8bff0e9035f83bc1c99a7adde 51064 unstable/binary-arm64/Packages
+ 54dd201b935060fe182eb50a38ad9ae5ae642a12 14641 unstable/binary-arm64/Packages.gz
+ 2650403919d2d7d016bb2896282b0f182f3461b6 131 unstable/binary-arm64/Release
+SHA256:
+ 17de1b7755f6122e4792be63efb49db61f9c25ad353117f9d79ccdff864a9503 51050 testing/binary-amd64/Packages
+ d879540296c0e4c5b8c48413c1608a4ee7fee14028eda0bf61221ec0c330e672 14665 testing/binary-amd64/Packages.gz
+ e864076bf5e8c96a53de8427f522753b5418c3a93b949e7a242dc325786e7810 130 testing/binary-amd64/Release
+ a48ea1d7baddc43f737fa6a9568cba96b283b195485b5ac63b76c22a0f316733 51029 testing/binary-arm64/Packages
+ 10b8185ad88288e8c385b190a7263151e9b0e73a7361eb6f3942446ec43e6f03 14638 testing/binary-arm64/Packages.gz
+ 5d4fcae6dba7dde71b673dc1d83e30307b20c93e09b648314140b34cd8f8c88c 130 testing/binary-arm64/Release
+ 6780c0e5e4283da4e4c339ca9eeade29fd3ac67ed4731a97459228a6e9983536 51085 unstable/binary-amd64/Packages
+ 706b84898380e0f3c9fd3649cca696728946e9e6141f86f230880493ef92bc97 14654 unstable/binary-amd64/Packages.gz
+ 6fc3bb415639a07fde971761423b1b3bd3352c86d43838d7a1f161120dff00b0 131 unstable/binary-amd64/Release
+ c73ece34d084c68d01a6cc226ef9c584e14a796f40dbd281b44c0c567ba64e8c 51064 unstable/binary-arm64/Packages
+ a992266c8efcfe7cdab35a256470c1cc021c6f203fa2034342175ec168e653da 14641 unstable/binary-arm64/Packages.gz
+ a3d48a2c9be4124d097dd240fd5a0668d6654f34e04c3fb2ac3a7b1805f34726 131 unstable/binary-arm64/Release
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEIgdakZ2usXfodMXR15zW8bUjlPoFAmmb0cIACgkQ15zW8bUj
+lPqIYxAArSORa1LpDn8uQdRTWDjWfC6efAxvN/aJ+sasA9yaJvPUZOmckCGk+muW
+qWx/vI9iGPOir5H4JIUEark/DrGmKkGo7SEPE60vLf4LtLKbndReZGaCuWL+xagu
+qaGeDbTST7E0jgvoeb0WIY6In0+qtorRPjtRRsVAma5187Uvclydh4wVtG4lkOiO
+khwuzGpoVtrtq0mNq/adShix0IyfBBSGCuo/1KG6bWpZRh91POcg9B0Sv80D+5oM
+v6fkoY/4zKK+s+2TcMmQHM0JvUNa1F2AVio1Fj019AZKfChwbuqXbuXOGMpfLDMD
+rI57kW4ZiQlUzmMbqoWBJvKzwFJPUMjdYxy9DVw/qvJY5oPuKZAxmCrEUxCQ2ugP
+OxYBzsMibsfSt63WAsx9UE88K4YRTJO+jC186ZnaI+FBPn+uHTLy9GUHlTwbcRtR
+zUsbmOJA68jo2dN14hs+4rSTaImMmfpE40cC+FBJ1bNIQmbtwdN8OXjnMgSdcsXg
+B05dGERqAJHNg8v+ESLkBDz+Wk/yyXSTqH04xz6mS8W7EoBcBvL5RXRQrJg4T9Cz
+D6bY8q9x/JOpgnHk1iXSPXvcymT3uQPyWrzxTvl8OT+w6XwN0/JsinW7WUHLKxHt
+9Ts5h5EIRpTRXNU2dIaqGHYGHX83fYosJXzpH0P5J7/7SY7NIGQ=
+=SN/8
+-----END PGP SIGNATURE-----
