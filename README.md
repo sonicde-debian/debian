@@ -17,7 +17,7 @@ Signed-By: /usr/share/keyrings/NexusSfan.pgp
 EOF
 
 sudo apt-get update
-sudo apt-get install sonicde sonicde-archive-keyring
+sudo apt-get install sonicde sonic-archive-keyring
 ```
 
 If you are using Debian/Devuan Unstable then use `Components: unstable`
