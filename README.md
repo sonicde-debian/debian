@@ -1,6 +1,6 @@
 # Debian/Devuan Repository for SonicDE
 
-This repository provides [SonicDE](https://github.com/Sonic-DE) third-party amd64 and arm64 binary packages for [Debian](https://debian.org)-based distributions. It is known to work with [Debian](https://www.debian.org) and [Devuan](https://www.devuan.org).
+This repository provides [SonicDE](https://github.com/Sonic-DE) third-party amd64 and arm64 binary packages for [Debian](https://debian.org)-based distributions. It is known to work with [Debian](https://www.debian.org) and [Devuan](https://www.devuan.org). Please note that you currently need to switch to the `testing` or `unstable` branch in order to use SonicDE due to its very recent dependencies.
 
 ## Adding the Package Signing Key to Apt
 
