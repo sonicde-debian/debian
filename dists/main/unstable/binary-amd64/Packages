@@ -1482,20 +1482,20 @@ Description: Sonic Workspace documentation
  components and libraries
 
 Package: sonicde
-Version: 1.1
+Version: 1.2
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 8
-Depends: sonic-win, sonic-workspace, sddm-theme-silver, kde-style-silver, sonic-system-info, sonic-screen-library, sonic-desktop-interface, sonic-screenlocker
+Depends: sonic-win, sonic-workspace, sddm-theme-silver, kde-style-silver, sonic-system-info, sonic-screen-library, sonic-desktop-interface, kde-config-sonic-screenlocker
 Multi-Arch: foreign
 Homepage: https://github.com/Sonic-DE
 Priority: optional
 Section: kde
-Filename: pool/unstable/s/sonicde/sonicde_1.1_all.deb
-Size: 1416
-SHA256: 2e58b5ebd81b54751ca30d0ca860376a9924512e93f4e45f8423e31775a02961
-SHA1: 4692fdd4a460746606be0d130e804fcc979dfa6d
-MD5sum: 76fb4f478c584267a284cacb273711dd
+Filename: pool/unstable/s/sonicde/sonicde_1.2_all.deb
+Size: 1468
+SHA256: 99b7a27ae664941c16e5e4c6d25ac3e52fca461250f673ecc2a62d8ced973ad3
+SHA1: 3afcfe379bd2714cdebf59d964f656356915d12f
+MD5sum: 6c551c4ea1b70dd93f5886186400c7ec
 Description: SonicDE, the Sonic Desktop Environment
  The community-driven Sonic Desktop Environment aims to preserve and improve
  the X11-specific aspects of KDE. It currently consists of the customized
