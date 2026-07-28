@@ -659,22 +659,22 @@ Build-Ids: 21fb9b438c36d5f3e86257ce1b7176b422b71d8c 2e3a510cb5534d5d7acced8c4e39
 
 Package: sonic-libbatterycontrol6
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 230
 Depends: libc6 (>= 2.17), libkf6i18n6 (>= 6.22.0~), libkf6solid6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
 Conflicts: libbatterycontrol6
-Provides: libbatterycontrol6 (= 4:6.6.5-1)
+Provides: libbatterycontrol6 (= 4:6.6.5-2)
 Multi-Arch: same
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: libs
-Filename: pool/unstable/s/sonic-workspace/sonic-libbatterycontrol6_6.6.5-1_arm64.deb
-Size: 51572
-SHA256: f88f91e6d775ea23d90e9a7c0c6d2b6ac0a9bcb69b8e92b3cb1b5b1eac27c823
-SHA1: 9c9787e9b6bcd4cf948c108dc79f1061e2357ebf
-MD5sum: 2f8f95230690f836d4c6a2a04fdcf9d6
+Filename: pool/unstable/s/sonic-workspace/sonic-libbatterycontrol6_6.6.5-2_arm64.deb
+Size: 51536
+SHA256: 3f075c210a7a575f25fa524436180acc857dfd270c5c554f79751e0e5c643cc8
+SHA1: 9e6971fd9e847dde15889059e3e2d70be1fba420
+MD5sum: 6fd97195ea769a47b23f1f9cc5cb9774
 Description: Sonic Workspace battery control library
  Sonic Workspace is used as the base for Sonic Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
@@ -684,41 +684,41 @@ Description: Sonic Workspace battery control library
 
 Package: sonic-libbatterycontrol6-dbgsym
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 1190
-Depends: sonic-libbatterycontrol6 (= 4:6.6.5-1)
+Depends: sonic-libbatterycontrol6 (= 4:6.6.5-2)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/unstable/s/sonic-workspace/sonic-libbatterycontrol6-dbgsym_6.6.5-1_arm64.deb
-Size: 986664
-SHA256: da5121d97feeaf09bd13e018b38adce2c0a3f44cff028abe6ca54f22d5adcda0
-SHA1: 53d445866ccd7691e919ecc3bcc0e1c03bdda139
-MD5sum: 835b2cd9ecdc17b90a29ced71313aa09
+Filename: pool/unstable/s/sonic-workspace/sonic-libbatterycontrol6-dbgsym_6.6.5-2_arm64.deb
+Size: 986624
+SHA256: 2a6c3cb321ec41d1879dfcd7dd4f4a36a0816ffa4e996079400e675f6cfa230c
+SHA1: 809459c7d22ce1afef88238de66dbfe0e14af7e9
+MD5sum: 00f164b83ce19ff04329c64ef27df597
 Description: debug symbols for sonic-libbatterycontrol6
-Build-Ids: 14b34a9cd16431822e23d0529980add90d8528f0
+Build-Ids: fe51ae2400fe0ab023b49569722af6cc9296d3b6
 
 Package: sonic-libkfontinst6
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 229
 Depends: libc6 (>= 2.33), libfontconfig1 (>= 2.12.6), libkf6i18n6 (>= 6.22.0~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libstdc++6 (>= 5)
 Conflicts: libkfontinst6
-Provides: libkfontinst6 (= 4:6.6.5-1)
+Provides: libkfontinst6 (= 4:6.6.5-2)
 Multi-Arch: same
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: libs
-Filename: pool/unstable/s/sonic-workspace/sonic-libkfontinst6_6.6.5-1_arm64.deb
-Size: 54312
-SHA256: 7c1cf349e5a8984e5d6943ba53ba12dc54dff959359f72c6d81dbffc90c716fe
-SHA1: eddd0766e127021e358828b7101b7160e079ee78
-MD5sum: 334c869feccc74002438ab680fdfacd8
+Filename: pool/unstable/s/sonic-workspace/sonic-libkfontinst6_6.6.5-2_arm64.deb
+Size: 54388
+SHA256: 6046e80d1448179f5c39bb10182318fd9683079498e9963cd78b64b9daec264c
+SHA1: c9f5ed9442374b4ca026f9b0e8d96f7289dd50d4
+MD5sum: 98c0304b43efd143f295731ea08a2983
 Description: Sonic Workspace fonts installation library
  Sonic Workspace is used as the base for Sonic Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
@@ -728,41 +728,41 @@ Description: Sonic Workspace fonts installation library
 
 Package: sonic-libkfontinst6-dbgsym
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 1338
-Depends: sonic-libkfontinst6 (= 4:6.6.5-1)
+Depends: sonic-libkfontinst6 (= 4:6.6.5-2)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/unstable/s/sonic-workspace/sonic-libkfontinst6-dbgsym_6.6.5-1_arm64.deb
-Size: 1225752
-SHA256: fce0adaaaef65e6f5976d81320d9fe5848269844a1ecf79ccaa9a0cd3e216d4e
-SHA1: 2d914e7a5428bcc25a4890efc930bdde37dbdd0c
-MD5sum: 0557cca09b995acd1156c8b61c67566e
+Filename: pool/unstable/s/sonic-workspace/sonic-libkfontinst6-dbgsym_6.6.5-2_arm64.deb
+Size: 1225548
+SHA256: 2284b7aa4d68ffe4b642d36bf8b4fea23ac9ad063b5d79c5e2fcb2324823fe89
+SHA1: 528ce3eeecbe0cb5d7c355a0d8ae1d1b805fc537
+MD5sum: 657ef7ed7d1e5b06a3d6b66561e4f10b
 Description: debug symbols for sonic-libkfontinst6
-Build-Ids: e7221975437461333fdeb64e8be0f236631ad76c
+Build-Ids: 91ff435cdbae01ecb6368b58ad40fa812b56d3b4
 
 Package: sonic-libkfontinstui6
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 165
 Depends: libc6 (>= 2.17), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libkf6configcore6 (>= 6.0.0), libkf6i18n6 (>= 6.22.0~), libqt6core6t64 (>= 6.10.2), libqt6gui6 (>= 6.10.0~), libstdc++6 (>= 5), libx11-6, libxft2 (>> 2.1.1), qt6-base-private-abi (= 6.10.2), sonic-libkfontinst6 (>= 4:6.6.5)
 Conflicts: libkfontinstui6
-Provides: libkfontinstui6 (= 4:6.6.5-1)
+Provides: libkfontinstui6 (= 4:6.6.5-2)
 Multi-Arch: same
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: libs
-Filename: pool/unstable/s/sonic-workspace/sonic-libkfontinstui6_6.6.5-1_arm64.deb
-Size: 39380
-SHA256: 4e6f56df08ee109bd7f792f4e29361ccedd36d60dccea2fcbbabced687040268
-SHA1: 94e3e3a60a139ba37203f973ea46d3068bed9416
-MD5sum: 0c8a48db9e2392110095e5d131341f6e
+Filename: pool/unstable/s/sonic-workspace/sonic-libkfontinstui6_6.6.5-2_arm64.deb
+Size: 39440
+SHA256: efabfac6aa201708394bc2ce42f753f272397c6ac325b8724d6287e983387925
+SHA1: 4e9a75be8a815308f63647efa60f2509174ecebc
+MD5sum: ffb8b105cae0a67db204da730f16f246
 Description: Sonic Workspace UI components for fonts installation
  Sonic Workspace is used as the base for Sonic Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
@@ -776,42 +776,42 @@ Description: Sonic Workspace UI components for fonts installation
 
 Package: sonic-libkfontinstui6-dbgsym
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 580
-Depends: sonic-libkfontinstui6 (= 4:6.6.5-1)
+Depends: sonic-libkfontinstui6 (= 4:6.6.5-2)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/unstable/s/sonic-workspace/sonic-libkfontinstui6-dbgsym_6.6.5-1_arm64.deb
-Size: 515140
-SHA256: 6377a28a3861e24b4d4e1fe52f9688bb2de12700261f4f691e588a46c5200a3a
-SHA1: fb139fb7866e7aaff1c1a2fd29a1540524f972ca
-MD5sum: 15340989e16479230e032d5d90a70d65
+Filename: pool/unstable/s/sonic-workspace/sonic-libkfontinstui6-dbgsym_6.6.5-2_arm64.deb
+Size: 515072
+SHA256: fde6e1d16dc00e24ce64525e13fe722dfd4662e5f549902008286665fa50ad18
+SHA1: f8fae691b53cba6fce7c17919711f195ad5284af
+MD5sum: cd890cde0b4e89f1b4814ac4ea24e3c3
 Description: debug symbols for sonic-libkfontinstui6
-Build-Ids: e54c0b9fbaccab3903777534919297edec78db1b
+Build-Ids: 239b27d5071543772eaafc622397be31f93f5f6f
 
 Package: sonic-libklipper6
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 552
 Depends: kio6, libc6 (>= 2.32), libkf6configcore6 (>= 6.3.0), libkf6configgui6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6iconwidgets6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiocore6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6quick6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libsonicquick7 (>= 4:6.6.5), libstdc++6 (>= 5), libxcb-util1 (>= 0.4.0), libxcb1, qt6-base-private-abi (= 6.10.2)
-Recommends: sonic-workspace-doc (>= 4:6.6.5-1)
+Recommends: sonic-workspace-doc (>= 4:6.6.5-2)
 Conflicts: libklipper6
-Provides: libklipper6 (= 4:6.6.5-1)
+Provides: libklipper6 (= 4:6.6.5-2)
 Multi-Arch: same
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: libs
-Filename: pool/unstable/s/sonic-workspace/sonic-libklipper6_6.6.5-1_arm64.deb
-Size: 129472
-SHA256: 4e6eafa06ab67680fc03953b81b9df92f6a0e00d409a2654dfe3c73193743818
-SHA1: e0ecbd07ef19cd42176b3817fa1f1be12a1ad574
-MD5sum: fd2120b30210d9a859b8a14edd5a7ea9
+Filename: pool/unstable/s/sonic-workspace/sonic-libklipper6_6.6.5-2_arm64.deb
+Size: 129792
+SHA256: 57e5368acfc6ca404f540858865c40e361b8d7c35cc090721aae32a6507c0024
+SHA1: 375724a6ecaa756f919f90e1145bfa50e478af7e
+MD5sum: 099f625ce03496aaaaa89ce87214a354
 Description: Sonic Workspaces Klipper library
  Sonic Workspace is used as the base for Sonic Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
@@ -825,41 +825,41 @@ Description: Sonic Workspaces Klipper library
 
 Package: sonic-libklipper6-dbgsym
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 4066
-Depends: sonic-libklipper6 (= 4:6.6.5-1)
+Depends: sonic-libklipper6 (= 4:6.6.5-2)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/unstable/s/sonic-workspace/sonic-libklipper6-dbgsym_6.6.5-1_arm64.deb
-Size: 3607228
-SHA256: 2a4184709fde5619d8af5728816fb5b647902bac000511b7a4531f9a4e7ca6e6
-SHA1: fe5e0f647224616f4f651b46ef3656662b7c9a66
-MD5sum: 616f455b87d06360838760e2d7e10bee
+Filename: pool/unstable/s/sonic-workspace/sonic-libklipper6-dbgsym_6.6.5-2_arm64.deb
+Size: 3607276
+SHA256: 96e7d260a0daaa12e377eeffd1cb88bc0bd221b8ab8b7bfcd7e03641a6404a5a
+SHA1: 0fea8b31ebc7cc14c71eb4247e6e5743e1337673
+MD5sum: ffe8c7a355da04915c805a1fb3f9c430
 Description: debug symbols for sonic-libklipper6
-Build-Ids: b220515f339f0a9139a6ce9293844919338da3c3
+Build-Ids: d9ab83d3a763a32df14645294f11dc3bedbb6e81
 
 Package: sonic-libklookandfeel6
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 293
 Depends: libc6 (>= 2.38), libkf6colorscheme6 (>= 6.22.0~), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6iconthemes6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libstdc++6 (>= 5), libx11-6, libxcursor1 (>> 1.1.2), libxfixes3, qt6-base-private-abi (= 6.10.2)
 Conflicts: libklookandfeel6
-Provides: libklookandfeel6 (= 4:6.6.5-1)
+Provides: libklookandfeel6 (= 4:6.6.5-2)
 Multi-Arch: same
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: libs
-Filename: pool/unstable/s/sonic-workspace/sonic-libklookandfeel6_6.6.5-1_arm64.deb
-Size: 69120
-SHA256: 3c0c77b8ee6adee7908502ff1dd3e6a1fc82d7074a6705f3151a128794254ade
-SHA1: 775de6fc5feed1062d73b37d27bca3cf669bbd17
-MD5sum: c5b8a9046b2fa8fdc366e2ab0cf7a9c5
+Filename: pool/unstable/s/sonic-workspace/sonic-libklookandfeel6_6.6.5-2_arm64.deb
+Size: 69108
+SHA256: 2a97969ff9d73d956f5e47d7d79ee8033de9c5b900c95f00282f933a39f9f786
+SHA1: b19beb8950cd83873aa80a82942640c3421365a0
+MD5sum: 6de3a9d5f280ffcf7967fef97c9f3b97
 Description: Sonic Workspace look and feel helper library
  This tiny library provides shared helpers for determining whether a global
  theme is light or dark. It is used by the look and feel and landing page
@@ -872,41 +872,41 @@ Description: Sonic Workspace look and feel helper library
 
 Package: sonic-libklookandfeel6-dbgsym
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 1836
-Depends: sonic-libklookandfeel6 (= 4:6.6.5-1)
+Depends: sonic-libklookandfeel6 (= 4:6.6.5-2)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/unstable/s/sonic-workspace/sonic-libklookandfeel6-dbgsym_6.6.5-1_arm64.deb
-Size: 1660644
-SHA256: 18458d5705acc15d8ec8fc24997e2bebcbcb8afdae3987ae0195c228c0f92919
-SHA1: 9eee008e0afbb2c5b6fbeb9fc94b3d1f77c2441a
-MD5sum: 989207d3a012d0b343ad47dd28738167
+Filename: pool/unstable/s/sonic-workspace/sonic-libklookandfeel6-dbgsym_6.6.5-2_arm64.deb
+Size: 1660560
+SHA256: f5fd4b17684cd4fdd8a9589f1972a8a0b4d0e8c7dc898fd04caec0fc7ba4d497
+SHA1: 8ec40d59e7f2e80d3fb223203b7600defa52d07c
+MD5sum: 452c5c28e5fc85268a8d50a3b67b0d3d
 Description: debug symbols for sonic-libklookandfeel6
-Build-Ids: cd0f3433e8adac598c252eab5516f66faa327a77
+Build-Ids: 30a95ce1cf0188d1859ef816b130612db03263db
 
 Package: sonic-libkmpris6
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 425
 Depends: libc6 (>= 2.32), libkf6configcore6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 11), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2)
 Conflicts: libkmpris6
-Provides: libkmpris6 (= 4:6.6.5-1)
+Provides: libkmpris6 (= 4:6.6.5-2)
 Multi-Arch: same
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: libs
-Filename: pool/unstable/s/sonic-workspace/sonic-libkmpris6_6.6.5-1_arm64.deb
-Size: 91844
-SHA256: 632585f85387115f783f5d40713cfdaee88a520845661269377109fe0014c0af
-SHA1: 867c3f57742e9e648b0da1f33ec37d382e74b7eb
-MD5sum: 0df1c7062f60dfd35dfac9f2381fdbf1
+Filename: pool/unstable/s/sonic-workspace/sonic-libkmpris6_6.6.5-2_arm64.deb
+Size: 91572
+SHA256: 84ab96ca21fc8d922149ca4dd1c0f888f20a66d2468abc13be29df6406a112ec
+SHA1: 0452a8524b8989e69ef1589049a161114d520b35
+MD5sum: 375882cc7a04900199dac2bb753a8b9a
 Description: Sonic Workspace MPRIS library
  Sonic Workspace is used as the base for Sonic Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
@@ -919,41 +919,41 @@ Description: Sonic Workspace MPRIS library
 
 Package: sonic-libkmpris6-dbgsym
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 3007
-Depends: sonic-libkmpris6 (= 4:6.6.5-1)
+Depends: sonic-libkmpris6 (= 4:6.6.5-2)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/unstable/s/sonic-workspace/sonic-libkmpris6-dbgsym_6.6.5-1_arm64.deb
-Size: 2630180
-SHA256: 571b1c31916ba96669376bc59b2c9e140d7b2b6e1ed65c4c0b974160fd697bd7
-SHA1: bf52a191628cc52ecc4cd5ae78ad1dee92faff4d
-MD5sum: 2150d6e2795371052177f7a8b308804e
+Filename: pool/unstable/s/sonic-workspace/sonic-libkmpris6-dbgsym_6.6.5-2_arm64.deb
+Size: 2630048
+SHA256: e386ddc0d13b084bb4b74cc3e575206f54c7a8920c2cdfaa398a573dd4061b48
+SHA1: bea8a0ae0cb9d562f9a008d487da76318901ef8c
+MD5sum: 28199258a25a75b96df00c9a4c501603
 Description: debug symbols for sonic-libkmpris6
-Build-Ids: ee404ce9f55b71d5a322772cf53cd2cdb6e0bbeb
+Build-Ids: 1c9599e4181e6ff63b2604e5ee8e3dcb81459593
 
 Package: sonic-libkworkspace6-6
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 425
 Depends: libc6 (>= 2.38), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libsonicinterface7 (>= 4:6.6.5), libstdc++6 (>= 13.1), libxau6 (>= 1:1.0.11), libxcb-randr0 (>= 1.3), libxcb1
 Conflicts: libkworkspace6-6
-Provides: libkworkspace6-6 (= 4:6.6.5-1)
+Provides: libkworkspace6-6 (= 4:6.6.5-2)
 Multi-Arch: same
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: libs
-Filename: pool/unstable/s/sonic-workspace/sonic-libkworkspace6-6_6.6.5-1_arm64.deb
-Size: 87404
-SHA256: b8257cead6db0d0201df386e2c004e4a84638d9c868055eaeae810f110f244ec
-SHA1: 83611c449385b45cef2c9812f8970df731f99c28
-MD5sum: 73f5440b05c1c6f736233beb90ae6db1
+Filename: pool/unstable/s/sonic-workspace/sonic-libkworkspace6-6_6.6.5-2_arm64.deb
+Size: 87320
+SHA256: 00dfdb7e914eae277bf54062aa92ce195c798816d33814824a7e08f88dc43bbf
+SHA1: d413ba0f80f40f14f0d5acc8e9deec538e6e32bc
+MD5sum: 4000ab82a3bb030d78dc65766008e0ee
 Description: Sonic Workspace library
  Sonic Workspace is used as the base for Sonic Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
@@ -966,41 +966,41 @@ Description: Sonic Workspace library
 
 Package: sonic-libkworkspace6-6-dbgsym
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 3093
-Depends: sonic-libkworkspace6-6 (= 4:6.6.5-1)
+Depends: sonic-libkworkspace6-6 (= 4:6.6.5-2)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/unstable/s/sonic-workspace/sonic-libkworkspace6-6-dbgsym_6.6.5-1_arm64.deb
-Size: 2791044
-SHA256: 2e3f9557e147cd6e990aac4b2fbc9e365ac5da7ba0b7e8767bc2ab84b152a689
-SHA1: ae975ab889a9e8da7c9030850804b7211c853743
-MD5sum: d4b0d3ea3187b49b1174a90d44d017b1
+Filename: pool/unstable/s/sonic-workspace/sonic-libkworkspace6-6-dbgsym_6.6.5-2_arm64.deb
+Size: 2791116
+SHA256: d7efd2aea4e7759b35c50476aeec5211044e6e6d205fb99a36102315e83ab41c
+SHA1: 633ec121e3b56eb61455fcdbcc528514595dd1cc
+MD5sum: 546a5352c7e0edf6af5a4c219684030b
 Description: debug symbols for sonic-libkworkspace6-6
-Build-Ids: 46c3fbf5e574a0b1b826a3ff21f9ef93479f4f7e
+Build-Ids: 747f9151f0eaf157c826ec8a0ccf43ba870c59a6
 
 Package: sonic-libnotificationmanager1
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 941
 Depends: kio6, libc6 (>= 2.32), libcanberra0 (>= 0.2), libkf6configcore6 (>= 6.0.0), libkf6configgui6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6itemmodels6 (>= 6.22.0~), libkf6kiofilewidgets6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libstdc++6 (>= 5), sonic-libtaskmanager6 (>= 4:6.6.5)
 Conflicts: libnotificationmanager1
-Provides: libnotificationmanager1 (= 4:6.6.5-1)
+Provides: libnotificationmanager1 (= 4:6.6.5-2)
 Multi-Arch: same
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: libs
-Filename: pool/unstable/s/sonic-workspace/sonic-libnotificationmanager1_6.6.5-1_arm64.deb
-Size: 199812
-SHA256: 5b57ad18fc4513c6081a6deba9078752603c63f5854a07842c2707fc30ab44ea
-SHA1: d86c888d04c20eb7845300c05e07f74bba5db041
-MD5sum: ef36d509648ade0a06a6fdb6f46d53f3
+Filename: pool/unstable/s/sonic-workspace/sonic-libnotificationmanager1_6.6.5-2_arm64.deb
+Size: 200320
+SHA256: b9a70f3e6b0fde00d8ffb6e15bc55c9a2f14a4c3d2217e09a4c029b3bb94a603
+SHA1: 761168cac0b70372920bca0f278b538ed048ca08
+MD5sum: 49cd36d425a8a63d0f90a6cfee2c6d0b
 Description: Sonic Workspace notification manager library
  Sonic Workspace is used as the base for Sonic Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
@@ -1013,41 +1013,41 @@ Description: Sonic Workspace notification manager library
 
 Package: sonic-libnotificationmanager1-dbgsym
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 7625
-Depends: sonic-libnotificationmanager1 (= 4:6.6.5-1)
+Depends: sonic-libnotificationmanager1 (= 4:6.6.5-2)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/unstable/s/sonic-workspace/sonic-libnotificationmanager1-dbgsym_6.6.5-1_arm64.deb
-Size: 6745588
-SHA256: 7f197c5cb76185f1161b4f2ac3e64a3f4e5d55f576458b86f3312846e85f4226
-SHA1: 5bd8c78380ae9b5c7a8aba18f6072f4f5d6f1eb6
-MD5sum: e086a79df4387cb68b038c9b2dff2609
+Filename: pool/unstable/s/sonic-workspace/sonic-libnotificationmanager1-dbgsym_6.6.5-2_arm64.deb
+Size: 6745788
+SHA256: 2688e20c5d68b0777f47e4f9b3800cb3e36681f0dde2797617e9af8f26b9ca10
+SHA1: ef440540081fe8b2581b265aa0a0efa74d1338f6
+MD5sum: 6d588bb7787477a4fa66f363cf149b2d
 Description: debug symbols for sonic-libnotificationmanager1
-Build-Ids: 723d295ec6b37a39278fae8cc1fb730e67cabde2
+Build-Ids: d9d0a818d8355daee50fdaf22060335345b0be94
 
 Package: sonic-libtaskmanager6
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 809
 Depends: libc6 (>= 2.32), libkf6configcore6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6itemmodels6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kiogui6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libplasmaactivities7 (>= 6.6.3~), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6qml6 (>= 6.10.0~), libqt6test6 (>= 6.10.0~), libstdc++6 (>= 5), sonic-libkworkspace6-6 (>= 4:6.6.5)
 Conflicts: libtaskmanager6
-Provides: libtaskmanager6 (= 4:6.6.5-1)
+Provides: libtaskmanager6 (= 4:6.6.5-2)
 Multi-Arch: same
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: libs
-Filename: pool/unstable/s/sonic-workspace/sonic-libtaskmanager6_6.6.5-1_arm64.deb
-Size: 191464
-SHA256: 9634ea8b5ca3dfa42afe00ae18dbada849ebf0dd1a03b647fc4658a54baf74eb
-SHA1: e45314247bb0e923fec605982d795393a25b799e
-MD5sum: a52f9043d114b99433ef11b54f8bcef1
+Filename: pool/unstable/s/sonic-workspace/sonic-libtaskmanager6_6.6.5-2_arm64.deb
+Size: 191372
+SHA256: 2b0b0e660cbe52c0c2ccf80e664e663cc34aed8af8023a6147a8a8c8f35b3b47
+SHA1: d1f50c4af303734ffd7a01d791f05ceb7219a1d1
+MD5sum: 14859f9e9e043dd63012cbb0534987a1
 Description: Sonic Workspace task manager library
  Sonic Workspace is used as the base for Sonic Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
@@ -1060,22 +1060,22 @@ Description: Sonic Workspace task manager library
 
 Package: sonic-libtaskmanager6-dbgsym
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 5034
-Depends: sonic-libtaskmanager6 (= 4:6.6.5-1)
+Depends: sonic-libtaskmanager6 (= 4:6.6.5-2)
 Multi-Arch: same
 Priority: optional
 Section: debug
-Filename: pool/unstable/s/sonic-workspace/sonic-libtaskmanager6-dbgsym_6.6.5-1_arm64.deb
-Size: 4255964
-SHA256: 94946d66676546d0e7fb40c600a9e7089e860a0431d5f8bd0291cf586f8d3d1f
-SHA1: f2a4fff550030783ba51070c41b7421e5119dee0
-MD5sum: 46ddd9ee9f637c2b4699b73c126b497d
+Filename: pool/unstable/s/sonic-workspace/sonic-libtaskmanager6-dbgsym_6.6.5-2_arm64.deb
+Size: 4256080
+SHA256: 6bc7a5c658904634ff79ef4f52df107a59bbbd12548d9a7f2805658791a43990
+SHA1: 24ab7859b0f3061d783a3fc3d45ec55844b01006
+MD5sum: 3c13d8362973ab204a00bbd36bcc2d5a
 Description: debug symbols for sonic-libtaskmanager6
-Build-Ids: 142be52e1dd166718bdc39c9996c8fe7bc843e68
+Build-Ids: 7757dc0dc846fe540e5a7b80830e6821f51dfa7d
 
 Package: sonic-screen
 Version: 4:6.6.5-1
@@ -1429,23 +1429,23 @@ Description: An X11-only, lighter-weight fork of KWin - devel files
  This package provides the development files for sonic-win
 
 Package: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 30835
-Depends: default-dbus-session-bus | dbus-session-bus, drkonqi (>= 6.2.90~), frameworkintegration6, gdb, iso-codes, kactivitymanagerd (>= 6.2.90~), kded6, kglobalacceld (>= 6.2.90~), knighttime (>= 6.6~), sonic-win (>= 4:6.2.90~), libkf6config-bin, milou (>= 4:6.2.90~), sonic-desktoptheme, plasma-integration (>= 6.2.90~), sonic-workspace-data (>= 4:6.6.5-1), python3:any, qdbus-qt6, qt6-location-plugins, qt6-wayland, udisks2, x11-utils, x11-xserver-utils, qml6-module-org-kde-draganddrop, kio6, kwallet6, libappstreamqt3 (>= 1.1.3), libc6 (>= 2.38), libcanberra0 (>= 0.2), libcrypt1 (>= 1:4.1.0), libdbus-1-3 (>= 1.10), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libice6 (>= 1:1.0.0), libicu78 (>= 78.1-1~), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.22.0~), libkf6authcore6 (>= 6.22.0~), libkf6baloo6 (>= 6.2.0~), libkf6bookmarks6 (>= 6.0.0), libkf6calendarevents6 (>= 6.22.0~), libkf6colorscheme6 (>= 6.22.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.18.0), libkf6configgui6 (>= 6.3.0), libkf6configqml6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6dbusaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6holidays6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6i18nlocaledata6 (>= 6.22.0~), libkf6iconthemes6 (>= 6.22.0~), libkf6idletime6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.22.0~), libkf6kcmutilscore6 (>= 6.22.0~), libkf6kcmutilsquick6 (>= 6.22.0~), libkf6kiocore6 (>= 6.22.0~), libkf6kiofilewidgets6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6kiowidgets6 (>= 6.22.0~), libkf6networkmanagerqt6 (>= 6.22.0~), libkf6newstuffcore6 (>= 6.22.0~), libkf6newstuffwidgets6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6parts6 (>= 6.22.0~), libkf6runner6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.11.0), libkf6statusnotifieritem6 (>= 6.22.0~), libkf6svg6 (>= 6.22.0~), libkf6texteditor-bin (>= 6.22.0~), libkf6texteditor6 (>= 6.22.0~), libkf6textwidgets6 (>= 6.22.0~), libkf6userfeedbackcore6 (>= 6.2.0~), libkf6wallet6 (>= 6.22.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libknighttime0 (>= 6.6.3~), libksysguardsensorfaces2 (>= 4:6.6.3~), libplasmaactivities7 (>= 6.6.3~), libplasmaactivitiesstats1 (>= 6.6.3~), libpolkit-qt6-1-1 (>= 0.200.0), libprocesscore10 (>= 4:6.6.3~), libqalculate23 (>= 5.10.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6positioning6 (>= 6.10.0~), libqt6printsupport6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libsm6 (>= 2:1.2.6), libsonicinterface7 (>= 4:6.6.5), libsonicquick7 (>= 4:6.6.5), libsonicscreenlocker6 (>= 4:6.6.5), libstdc++6 (>= 13.1), libsystemd0, libudev1 (>= 183), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-image0 (>= 0.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb1 (>= 1.6), libxcursor1 (>> 1.1.2), libxfixes3, libxft2 (>> 2.1.1), libxtst6 (>= 2:1.2.5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2), sonic-libbatterycontrol6 (>= 4:6.6.5), sonic-libkfontinst6 (>= 4:6.6.5), sonic-libkfontinstui6 (>= 4:6.6.5), sonic-libklipper6 (>= 4:6.6.5), sonic-libklookandfeel6 (>= 4:6.6.5), sonic-libkmpris6 (>= 4:6.6.5), sonic-libkworkspace6-6 (>= 4:6.6.5), sonic-libnotificationmanager1 (>= 4:6.6.5), sonic-libtaskmanager6 (>= 4:6.6.5), zlib1g (>= 1:1.1.4)
-Recommends: kde-cli-tools (>= 4:6.2.90~), kio-extras, kio-fuse, ksystemstats (>= 6.2.90~), plasma-workspace-doc (>= 4:6.6.5-1), powerdevil (>= 4:6.2.90~), systemsettings
+Depends: default-dbus-session-bus | dbus-session-bus, drkonqi (>= 6.2.90~), frameworkintegration6, gdb, iso-codes, kactivitymanagerd (>= 6.2.90~), kded6, kglobalacceld (>= 6.2.90~), knighttime (>= 6.6~), sonic-win (>= 4:6.2.90~), libkf6config-bin, milou | qml6-module-org-kde-milou, sonic-desktoptheme, plasma-integration (>= 6.2.90~), sonic-workspace-data (>= 4:6.6.5-2), python3:any, qdbus-qt6, qt6-location-plugins, qt6-wayland, udisks2, x11-utils, x11-xserver-utils, qml6-module-org-kde-draganddrop, kio6, kwallet6, libappstreamqt3 (>= 1.1.5), libc6 (>= 2.38), libcanberra0 (>= 0.2), libcrypt1 (>= 1:4.1.0), libdbus-1-3 (>= 1.10), libfontconfig1 (>= 2.12.6), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libice6 (>= 1:1.0.0), libicu78 (>= 78.1-1~), libkexiv2qt6-0 (>= 24.05.1), libkf6archive6 (>= 6.22.0~), libkf6authcore6 (>= 6.22.0~), libkf6baloo6 (>= 6.2.0~), libkf6bookmarks6 (>= 6.0.0), libkf6calendarevents6 (>= 6.22.0~), libkf6colorscheme6 (>= 6.22.0~), libkf6completion6 (>= 6.0.0), libkf6configcore6 (>= 6.18.0), libkf6configgui6 (>= 6.3.0), libkf6configqml6 (>= 6.0.0), libkf6configwidgets6 (>= 6.0.0), libkf6coreaddons6 (>= 6.22.0~), libkf6crash6 (>= 6.22.0~), libkf6dbusaddons6 (>= 6.22.0~), libkf6globalaccel6 (>= 6.22.0~), libkf6guiaddons6 (>= 6.22.0~), libkf6holidays6 (>= 6.22.0~), libkf6i18n6 (>= 6.22.0~), libkf6i18nlocaledata6 (>= 6.22.0~), libkf6iconthemes6 (>= 6.22.0~), libkf6idletime6 (>= 6.22.0~), libkf6jobwidgets6 (>= 6.0.0), libkf6kcmutils6 (>= 6.22.0~), libkf6kcmutilscore6 (>= 6.22.0~), libkf6kcmutilsquick6 (>= 6.22.0~), libkf6kiocore6 (>= 6.22.0~), libkf6kiofilewidgets6 (>= 6.22.0~), libkf6kiogui6 (>= 6.22.0~), libkf6kiowidgets6 (>= 6.22.0~), libkf6networkmanagerqt6 (>= 6.22.0~), libkf6newstuffcore6 (>= 6.22.0~), libkf6newstuffwidgets6 (>= 6.22.0~), libkf6notifications6 (>= 6.22.0~), libkf6package6 (>= 6.22.0~), libkf6parts6 (>= 6.22.0~), libkf6runner6 (>= 6.22.0~), libkf6service-bin, libkf6service6 (>= 6.0.0), libkf6solid6 (>= 6.11.0), libkf6statusnotifieritem6 (>= 6.22.0~), libkf6svg6 (>= 6.22.0~), libkf6texteditor-bin (>= 6.22.0~), libkf6texteditor6 (>= 6.22.0~), libkf6textwidgets6 (>= 6.22.0~), libkf6userfeedbackcore6 (>= 6.2.0~), libkf6wallet6 (>= 6.22.0~), libkf6widgetsaddons6 (>= 6.0.0), libkf6windowsystem6 (>= 6.0.0), libkf6xmlgui6 (>= 6.0.0), libknighttime0 (>= 6.6.3~), libksysguardsensorfaces2 (>= 4:6.6.3~), libplasmaactivities7 (>= 6.6.3~), libplasmaactivitiesstats1 (>= 6.6.3~), libpolkit-qt6-1-1 (>= 0.200.0), libprocesscore11 (>= 4:6.6.3~), libqalculate23 (>= 5.11.0), libqt6core6t64 (>= 6.10.2), libqt6dbus6 (>= 6.10.0~), libqt6gui6 (>= 6.10.0~), libqt6network6 (>= 6.10.0~), libqt6positioning6 (>= 6.10.0~), libqt6printsupport6 (>= 6.10.0~), libqt6qml6 (>= 6.10.2), libqt6quick6 (>= 6.10.0~), libqt6sql6 (>= 6.10.0~), libqt6svg6 (>= 6.10.0~), libqt6widgets6 (>= 6.10.0~), libqt6xml6 (>= 6.10.0~), libsm6 (>= 2:1.2.6), libsonicinterface7 (>= 4:6.6.5), libsonicquick7 (>= 4:6.6.5), libsonicscreenlocker6 (>= 4:6.6.5), libstdc++6 (>= 13.1), libsystemd0, libudev1 (>= 183), libx11-6, libxcb-composite0, libxcb-cursor0 (>= 0.0.99), libxcb-damage0, libxcb-image0 (>= 0.2), libxcb-shape0, libxcb-util1 (>= 0.4.0), libxcb1 (>= 1.6), libxcursor1 (>> 1.1.2), libxfixes3, libxft2 (>> 2.1.1), libxtst6 (>= 2:1.2.5), qt6-base-private-abi (= 6.10.2), qt6-declarative-private-abi (= 6.10.2), sonic-libbatterycontrol6 (>= 4:6.6.5), sonic-libkfontinst6 (>= 4:6.6.5), sonic-libkfontinstui6 (>= 4:6.6.5), sonic-libklipper6 (>= 4:6.6.5), sonic-libklookandfeel6 (>= 4:6.6.5), sonic-libkmpris6 (>= 4:6.6.5), sonic-libkworkspace6-6 (>= 4:6.6.5), sonic-libnotificationmanager1 (>= 4:6.6.5), sonic-libtaskmanager6 (>= 4:6.6.5), zlib1g (>= 1:1.1.4)
+Recommends: kde-cli-tools (>= 4:6.2.90~), kio-extras, kio-fuse, ksystemstats (>= 6.2.90~), plasma-workspace-doc (>= 4:6.6.5-2), powerdevil (>= 4:6.2.90~), systemsettings
 Conflicts: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:6.4.90~), plasma-desktop-data (<< 4:5.22.90), plasma-workspace, plasma-workspace-data (<< 4:6.5.2-2), plasma-workspace-wayland, qml6-module-org-kde-breeze
 Replaces: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:6.4.90~), plasma-desktop-data (<< 4:5.22.90), plasma-workspace-data (<< 4:6.5.2-2), plasma-workspace-wayland
-Provides: notification-daemon, plasma-workspace (= 4:6.6.5-1), qml6-module-org-kde-breeze (= 4:6.6.5-1), x-session-manager
+Provides: notification-daemon, plasma-workspace (= 4:6.6.5-2), qml6-module-org-kde-breeze (= 4:6.6.5-2), x-session-manager
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: kde
-Filename: pool/unstable/s/sonic-workspace/sonic-workspace_6.6.5-1_arm64.deb
-Size: 5926480
-SHA256: 446b7f2f2a1aec375e13e7b86dfb28132a7df2c9d87d3b939d5bc6f22a4b090a
-SHA1: 313522935b3392b1bdfcd537e24fa068667b495a
-MD5sum: cb9dc24f76a60419de02649018517593
+Filename: pool/unstable/s/sonic-workspace/sonic-workspace_6.6.5-2_arm64.deb
+Size: 5925976
+SHA256: e6b769c1ab872384fc5536aa44cb16c15627812aa8271da304b7db5c73619359
+SHA1: 22f84c1ea646ab8cadba0f2407cf30c11775b52e
+MD5sum: 6296ccf2164bd4dc742665c62fe74846
 Description: base for Sonic Desktop, Mobile, and Bigscreen graphical environments
  Sonic Workspace is used as the base for Sonic Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
@@ -1453,23 +1453,23 @@ Description: base for Sonic Desktop, Mobile, and Bigscreen graphical environment
 
 Package: sonic-workspace-data
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 29505
 Depends: qtpaths6
 Conflicts: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:5.24.0), plasma-desktop-data (<< 4:6.4.90~), plasma-workspace-data, xdg-desktop-portal-kde (<< 6.2.0~)
 Replaces: breeze (<< 4:5.23.90~), plasma-desktop (<< 4:5.24.0), plasma-desktop-data (<< 4:6.4.90~), xdg-desktop-portal-kde (<< 6.2.0~)
-Provides: plasma-workspace-data (= 4:6.6.5-1)
+Provides: plasma-workspace-data (= 4:6.6.5-2)
 Multi-Arch: foreign
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: kde
-Filename: pool/unstable/s/sonic-workspace/sonic-workspace-data_6.6.5-1_all.deb
-Size: 11718736
-SHA256: cc23f58d12c9bd0992d0b7227dc9dcb78ca4258ea9e6e11c6227242e72600c03
-SHA1: 39365185e2cb4faaf1b0d44709f35a611e9a58fb
-MD5sum: f64260a79af3aa64e56589eecae96528
+Filename: pool/unstable/s/sonic-workspace/sonic-workspace-data_6.6.5-2_all.deb
+Size: 11718600
+SHA256: 985ffdbc8e7b6dba9a8589688c519df43ac1f1c04f68acd18ab1541afcbe7adf
+SHA1: 5f88dea2337d2b7b8f34808724e47fa873639fc1
+MD5sum: 9306daafcda5cb5bd37bccf76cb0ddee
 Description: Sonic Workspace data files
  Sonic Workspace is used as the base for Sonic Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
@@ -1479,40 +1479,40 @@ Description: Sonic Workspace data files
 
 Package: sonic-workspace-dbgsym
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Auto-Built-Package: debug-symbols
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
-Installed-Size: 173978
-Depends: sonic-workspace (= 4:6.6.5-1)
+Installed-Size: 173970
+Depends: sonic-workspace (= 4:6.6.5-2)
 Priority: optional
 Section: debug
-Filename: pool/unstable/s/sonic-workspace/sonic-workspace-dbgsym_6.6.5-1_arm64.deb
-Size: 137985092
-SHA256: bad063f2855e9e2f44e854d447455e9a5291e6469486760b2f95bac701cd20db
-SHA1: 11b14b9edc5478727fdbe322e689218e72ab111d
-MD5sum: 7a57da34060b82ace7bb1b845744c751
+Filename: pool/unstable/s/sonic-workspace/sonic-workspace-dbgsym_6.6.5-2_arm64.deb
+Size: 138010152
+SHA256: b0475c3a30260687ef8b8a8073e2cebc4daeea36c93d4e95db1e858b6f36d7b4
+SHA1: cec1df42e1b1f95f280c7d32def6ed88f1e2ffe5
+MD5sum: 7ef26cded025ac9a422aa0974d48e50b
 Description: debug symbols for sonic-workspace
-Build-Ids: 006dbbdc67f566bfc22bafe314824a3479833749 01eb2572e4a4dca5555f5a7dd449580f8dd449f7 0dd947d63d62e8952cc694fd04d744e068339f26 10bc10c9182f6355e9ba62ceb263b87ba70defe8 1257146c9c280e458dcf8c88240387eb78fecc10 134d557bc66a650afe151c8e46f97108f80b2927 15e2b083bcca412aa4070458700ba1805944760b 176477735ad25eae7a55d543d48172e62697b661 1bcc24d4328bcfa7f09e6767379b59ec775b47b9 1eebc7c66a6a40ed5941f19d016027e0f2b98efa 1f4cb0d2feebe02dfa039c57df35e300f0f1a0da 1f986c28b961aa3e351760ea718dd4e2700727b1 217ff125ead8bcad75a12e362b9993c1bddf22e6 220001d41a702aca17dea18d10ad60a6213034c2 222dc2c94543dd5dfaa2fb7e5599df724831104a 22c8671f780de9800636c1c1ab6e815fe16e73a3 23b4a50ba0f630bfc233cda80751303b36eed4ce 25408ad22ce6d551340676280be2fd0dde17da6f 273e6545c23a43a1d1ac276bd1b64192ec85e1a2 28127cd0e408ef76328cd70dc2643a6fec2894e7 284d3b3790ee01f3e34be134387ef075480e9d80 29810636976044162b46737905751e0d43cae5e4 29ca5597a158a1d597476bbee662be1649bac6b6 2b095987ee2268790e0c33e3b326531717d95641 30dff6b011dd18db59ef1e4d2df135e480e57604 327a42d806dc0400df05d5ed68df805d6500d0e9 328d4d6f7a643119cccac8ecebe4c55555487c99 36869748823d09f2ff970f8e023c0aa32c301580 375f983b9cdbccd0275a60064c26100f8b3d2149 3dc5ff889a23fe68a02820c9b5d9c2fef407038f 43054468f0c3b811cc6e1e1be21c5b1bad28316b 4540f16cdce7f53946bc87caa1199b158323c376 4578afdee629a142ac2daf1a7428e17ae97b0063 4602db005adaf6ec0445fe6a58956ee3a088221e 4b856bd43b65e1c53c2607934b9b52a0a68903f4 4b909945098568c6f8ffc44efb319fcaad639048 4ce2e3909d6ed1d360026db17c2c607c88294f80 4d672ad739a6bdeba85f02e382a5f48a1bba8016 4e6ca1127bfe471a9b012336114946cf123518de 5030926fc80330c649673e6ae911299b53cc6b7b 53bbc0be41243d7e66b95d0d51380244fd142b83 543ba202ded3687d0542e10424cc610ef081293e 586895d87fd00772fcbb3234ff522175c2629889 5ba7a40ae159d7eb088ab9620bb4c265d072500d 5dd1d13d9294263479e5dfa91581f2a35879d515 600a2b270f0034b4f289fb16c7d09918928659ca 63304d6f99b279efa815d770dbb51be5df86b425 684e48f14c346f66579994571adbc50424c38291 694916044e52f383f3f0eb48c67c1ec9ec0400f5 69e9956b364673fae87142c48ca660d7871477fa 69ed7d0e10ce5dacc076b1488c58b0665ea95757 6bb6dfaa695c937158ab323ded5b09e59d5ae816 6c1a6fe1bb2c5785bdc6cf632b15cf89bee0318e 6cbcdcc70a6db6d994ab21c2446103542dfb03a0 6f5474f27c3bfc5c8058fd15bdb256fb97340f53 7089ffe07587795d3bca3c736ac04c1e8459a34d 7297527ef375a5f9332d91010264db2a1efd4047 73ad15ac3e617b728e35a35a33781f382ff2b709 73db14aaec2d6e0796f0b6960c0deda5eca65394 770354df1080bdcb3d08494748434be70045e479 77435f0201f3494644672e7da056ac4aabb3b435 78242fd904db9f8f7f85ee4a0deb94019345ce77 799079745ce5366659813a9e4449bcda7d8b7366 7a0db5f2635e08c1b02c7e5b7ed0b3ecc0aaf608 7fc673709f9085ea7f22c7b4d7e49c68da92d1d6 7ff0d4dbf513f6800af22e6df008f3c43696eff4 805c64c893dfd7f95606b7615d1a1e2e302f1cee 82d439a07aa17252a8b0802764b8d9838118bd51 834bbf29733674748bc2982a890bbd038e5fecba 83a2b354ff0f41acae01e0e5e5c2db9c026e7a9b 8999b559a64d0fac08e01e5d6902d3bcd36fca30 8a5c733f68081722d9baeed16277cd0b79f107ee 8bf3855acdbe1577bd54b60fe817b7ed3b9a394c 8c1acee48ed3db4cd2676875abbb5f801dab8071 8dac35d7cfe7103fab62e5f7516cab52f51d31da 8f6bcdf3007b08b99a269b8fdf9e4352db625c69 91bb935371cbdbd4fe9c9917c4d5474cde0a2b04 93ed735c112c79998737ccb93606360ab0b26e0b 95f51425d738fce4cd45c5138e1d92f7bd831fd6 9a0b86a48175121fffc97e86259a5eba74f3bdbb 9a73f3ac18e32d371d41808a7261c2a0bce0818a 9b531f49eefec04b709d507f57021fdebb77d3e7 9c21f810dc39d3b9bb8c86a2a7543636eabc2944 9ef3ea676e3bf66a6f50fb3e99e5635f4944bc7b a1c5539cd6e9497069bed58f51f555895a9ec0f4 a206e9bbef5ee5a6f7fc4d4d6f550af1bd080f54 a30d021a85ca5498eed8f5d150e390334a20b170 a3fff27de8cdebfb618fbf76425ba976fa80ec5f a7f8579334ca76faff3e3ea7e7b551651dc780da a83cfe390e984d648d45cef5a6f80bb99b8df0ed aaa2cfd05b4497a8279f5af9eeff261ba227089d aaa73d772f02b176f3d09b2c7fd5954c37b10661 afcf7492e431ad8f7263ebafb3f8c09f19b7bfd1 b1c1f98fff9474af96f73fd9df81acce0517071b b28aae32f6464a33876ee8d648d32aad414eed29 b6c4e928b14064bb93bbe480871ddf4b250f925e ba7c91a496ea33605c5359e0d252f51180a0676a bbbe35e8a26f118440f3d7be061cd6b52dffb3ad bd027be77c46f4365ad2e27f6132071a43be7c7d bf73c8847f39e6d305fa3c596d843e51f8b45184 c171a2cc4256132d317b31861d0fcd8252cc7ad5 c28f1740e268a17815b34e868b2eae014bbe2c43 c3ba1bca2132f925d87f230b8f1d1ffccc050ed7 c6b1474ea1a1b0398a94525ff2a4dad66cb0cb52 ca9179abef98b82d2131f722993cb7766a77541f ca94bc38d8a7d4af0967c2e35cdc2701e5397cb8 cadd1b3c3382064c59903ce7ccce5aac39531e4f cc039f655606bac5b20b2a1e7cd13d3b4e589932 cd39d8ca1118e40f340d0bcd77c5bd1da5d07285 ce9ea54a75ec030c12646178e48e0bf642f1a70b cf1f5916f0d4277fa93e34e52cb048a33347e080 cf9b89164139326bb43bf767b1292d2919d7dc98 d21a8ece7611d7b3482534ff7a6f1db985784014 d2c46feb349b32e57381741348a5e778e64af3c5 d3cf32e543e0f58f7a0807dc4a172639ebd039d9 d4d7ab747b56df51c9ef78ac2c15ccdd48885b6e d5b020c5eb240baf7c525ad7c47a7ff66c95de42 d6ab4ceb118e8d8bf92009829764a258dfc9b5ee d6fafd0afee4dfd69ebed50b9d3721d23d0a7818 d77918dea8f6d908e06f17072294003f4d12494b d805b42f35674e97dc611fa03d1bcb4e5c1c7715 d8222fd2db542c58d5f15a78755d9ddc3a2d7a59 d97197c5fe08586af86ebf6929a5777c7a51659e d98ba55887c63abdcf396ed579924454a2c5f4c0 da3e0b99114bcd86cc62bca5b909c70c818cbc71 dcbc8b3122cf6856ae1e293fdd0267b170375563 dd151e3007bad70512b9635bd1c79e659e4e2b89 ddd0fbead9fd5a4048f143ea19580cf5d7ba015e e04fd56b614628cbed750b689f8578182c7056e3 e1314c1e35749f78ee5f3eb8ce9fb7c190463b44 e1e21a66e9e7ed5fc251264b588f5bfe8a6a8ebf e2e524a6ecda3f3d8058ce5e050ff423d61daa1d e312bc79d1c2a544308a2f1aaeb060a3c319127e e35b8bdd8bdb1348c8769e7a3ee7dbed4ff0b998 e3c0e1b469fa37b5b0856112af7de82395ba4e0a e40570d3c2ed7f4fc6fa6df2184e359d311b88ff e5cf63580d33b53ad9a332023eb3b347fb381ad2 e9c2fc2cf4bf56c3cbd6cebf0e4317b58d233276 eb70c67b095a8441105d83454ab00102d74503e4 f2e43acd9a8d629a17135253f6ede2a66a93c427 f4a60168742c4507e81ee01bd914c68990720f68 fa1288c5a1e28e569a1a1a9eebc24e466ebeda36
+Build-Ids: 000a89062e81ec3723c0974afcd00355a4dca9b3 00417ef897c24ce07c2f2fa814828f74a5d91e7d 06426e7125f55df9dcce2bc69c7e6239e4934f81 06d4e57a69f21cfa4906b87aefb4dc0bdf4912d1 080d3cb323938e0c31ff82fe6ae76ffac9e4bcf5 09b53ec2ab19b5206026161f3427729f8dd9f042 0b61ac7be85e8723795a93c961a362a2077f1899 0b7b2d6564c1f9d3ab53cadb1fdd1bfec795b8e0 0bdf3e0c5904d8ff4508e7d6427d03456e3f4528 0c74c38602508f0cfe31531e2e323373eabba1dc 0fc6a92136eb1ef7ea663484a2de1f49f167cd51 1234741a4d7d0eaba2201b708851d151b233ad41 12a359a27c288b18e62b968bd5064d8f6dcda61f 15d6670d7fae8471d1d135a01b47adb48516930f 188003293dac1bed4f68568e40dcf868eff7112b 18b0ca7b26751c10fb7140d30041a6be7a2af025 1bca6dabf8018dcc17fa85a616183353234db505 1cb2f29bf13a37d866e600038bc15dc0df786ab6 1d20114c735ab478620099f0d22e6a397061b8bd 203b3c989febb0a2086cabdda1d21b8024890d42 219e8224b1b0bf854d8e6e44bfc19647ed65d0b3 226875ae4c8ff898a567250600f9c6b8d4dc40ce 2501badd8e90cedcba626fb052f40a7f63844883 25772c1ef5632a5e9b049295b942b3d1373f763c 29a82eb45bad6bb7d0d9528a15ab0156acb048f4 29dbe64dc267396d1b49335be5a5942120bd30dc 2bdc277da47e5cff8a76f8e1146ad5513dff517c 2e2c3672271640447825faecee03193cd0882421 34281532dcfa1a093e416eabcea0c448338d46f3 36a7d24c89ca14c92a1325ba1a280ce92a08968c 387a4af44567f65820dc21d2fdeb2ca19a06425d 3cda7bc350b02e3d1d743c3c6588f54fc6223cab 446649967c08537ca5e17767d2e54513e81814f0 44ada941d2f4d476d80e0d41eff2837315519731 4d9f492701ac0d108420a9f1febe993e841e8a0c 4f96aa69fbe28ffe63abd059961a459cbdac0c21 4fbddf169d09995eed3995f755a0123d2e081d5f 598fa44eae68a5430bb8d2d3d3ac6eb2b4395b6c 59c2168e90c5fedfb80b146bac2517e5b652047a 5b07056d3a85e4e8f40e4dcbc082b7fc62ee2e39 5c4fbb02e138e035846446d76a2d36a7067ec260 5d44641909620761b156485f175a42e3016dc910 5f86d03174be73195fce6fd4380fc237a4be2166 5ffac2402302d0f1f88345fc577b451fb232d75a 61d6c2bf353d9fedc707b640a2182df0175e5370 64bd22e64d5ba4326f98cf5bb0dc04ec50760a76 650a146e80a049fbaae79938b1ba41db279e21c7 65c751844b6df7590f40b73108dade3db035734d 6602e60d221bbe77014bee94975bf3c3951e4988 6718a1f1cf95334b9a62d93b49b5eb3bb8afd560 67640064936f7b007e2fd563b9704c1db48880f4 68f7feb28874104f5730e0cf69f1e1570c84d163 69a3aacb8e46e4f2fc450af98582dd9d730ac64d 6a5cdacb88e8a8bfca4b1353f6645a20b937ddb6 6c0a9063df391588d9214a1247a556db60059fbb 6c33f9291703cb5587dbf99073c1509994a000a2 6e1295dc967f2b38b6c60f9f9b74cef5b2554849 6f6aa6552af23a2bef9006754b4eac8f910b05ba 6f7263301924518f8ff8ef1148f3eecb24c43d39 7385cdfd2b3f39891a0d15efb6940480f6378b51 7485162afd8afc731c2692164019cb66f5738cad 765e54f539613d0800f0907aa85711f5cecea2c3 7817ea485958f1e09e44259a67fcc46fb31c6273 782ac860fad281565c87aab408436f89eaad12ab 79550dea9a2822b5164c501aee44fe2cd0e8425b 7c07a0070ce9d8bac99c459c86b7d24760703d6e 7c36cce62ce86ac87ace9e250205ffa728136528 822ee57f04a586d2a36b0fe3dbfcba6e9b910d36 838abd025696db53018678125d2d4131d97b50e7 850b55c09cc7d434c2a9db659f6c6656b78f46f3 8791149e84725c3fa5af158091381d4b4462c326 892b468a345d47fc99fb350525251bc39dde03f4 899431f0a93df16addbc5c9d4db18e451a41aaaf 8c64f4fd22fba7cd0c3467b44e262586920fb12b 8dc37dc539fb23131203d18aa8eaa6cf5995600c 913c94036123f82584f70d93b7285d90a44669d2 9313a336ce90eac912a8ccbd54f4a255fcb589f5 9320b3a4ffbd89162f9646e64c31828d0dfc1cb9 969df2c3d8fff96eda462b1c5de8d04a34912cea 96a72a2634c66ce53a6debafb215a485e652c2df 9746912a0af2386c5858fc011aee0f7f3b6e656e 9aed3aeba929fc8fc4344b00bc068f1fbe4e54d0 9b122c77b5bf394437e4bcd0e4cc1fb48207a9a3 9b27daa2a86d2c22286a012e1e4aa258a9e2cebc 9b3ec0e72f234b0a660d14f378ec6ebf51bcaade 9bde899c7e1158f080cb4083d1b38720962bb03d 9c0f6e824d47a00d5ac75085b5ef90e9d6d00960 9c1844f1eaf9f76af3800f0576d8bc96d4a0c175 9c792efab9c6c94032990c996409377c7aa737f4 9cd6c3f90aaff572c651c62cb0c910cdc18af131 a135acd800ad326b928cdf4d8b5129cec3798712 a18f88fa5edc332ec2bc759a88f5fcdc661e43da a9aa745e5d7f68a2e45e0c1f8360da1fdd6ef8d6 acf12066295a2c1586e4f0d049b94f720e64963d afbd46af89fb3e6a0efc7b80034e0830cdf5d973 afccca6766d98f2f5877847c9688775094eb96f8 b17d3ffba2b8e62f54a069811cb43a9fa231e92a b49671f673c291a5ffb777968eeadd6368d6122d b997c23c943ec092a9e6f77994283b12307b02f4 bca21a1cc316783bfb2f75b18b0eefb8660f11e8 befa31c4a7bd6cfca1bf97c2d4888eab56551a1a c1fad5fa3a818593dcb172085ea16f13a99230dd c4939e4f5b2cb897d51a39d26854ffc39e249cbd c5ae7238ee819c58c423ea48e0d2acdf225cbcfd c8379b35bdcee54d8412ce83ba4367062bb862cf cb9cd0f18add1ea78ee154f9a655616bda33180e cf8462d9d54eb13e1580a15b321bc6db39027e7d cff274d1244294b12e3714882041ef26cbc76eae d0aab5947a742d497d048322643a6afad2c704db d2c009cd2248cb21dea3598b6f86b2ca0073c0df d2d56c9581af3beafc207b657ac93e382ff0b168 d4d10df3fa62101f7ebdc38eae0eae7ec5a43da3 d77ec71fcf80ec6cc71cc68956f10cb40dd0643a d9407ac744f186d47b25077a8a49272c4f333182 db37317f36ba161bfda43abf447a91a0be431159 df7345a90cb9d70b566b29d40a1cc10d35dcde37 e0932f8e530f546d809149be3efddf2acd4013bb e14f581fd0691521a6e7f01e7f0d5a279ddac63e e3c532e998a18e92388b63d2e9f3dea50f969e5d e43420eb804d3f7c6eb7d44e6e85205d07cdd4c8 e4fdc1cbeeb3ee893821519d30bd6de2ca7e2252 e515465d00f82a9b6cc9001719b32743cf5bdcb8 e5fc1e7602940e1fbcff02abc1a7f0c920826df3 e795ac4450b82559e8f7004f87ce450c2d961740 e7ba33931875cdd272b3d46b7a92f9ca53403328 e98f7a6c36388de758badec85f56d1424319773d eabba61263c9c72f917f8dc3840f22df3d26ff61 ebb54a2e40f705eb66b7c12991976727b63728a6 ee03a6f66ce156f1cab45a300b978e88a325b76b f05a6e5440f46a0e72d0df4313c635297840ef9e f068eef95ec1830d29019202f3ad658d30b7825d f3ea11aa4e14846d54151cf6edc07143d13539f6 f530aaf35a4d527d4cd50245a7f488b5d1cc9a21 f68488dc4fbee698a137ae1fe42479abfc32b9d4 f7750e6752903d0118e99e5a37d9fe3495e712c5 f7e1f3311f511f46136d6d96e32da3460b7dc61f fa3168ef2dee282e3a0a57398c5d25785a0c224c fa42cb426b43b304f09b5eeb4f66d7ec2564aa4c fc0fea5848ee658f418a9683ea2497757deb49c4 fce6bd4703e807b24b9dc23f391f842b28e4b893 fda7785e0ce1c5d95477a12043bbac62810e5ac9 fdeca91154b6b8d0901e4b701a2119e1e1ddd3f3
 
 Package: sonic-workspace-dev
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Architecture: arm64
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 443
-Depends: libkf6itemmodels-dev (>= 6.22.0~), libsonicinterface-dev, qt6-base-dev (>= 6.10.0~), qt6-declarative-dev (>= 6.10.0~), sonic-libbatterycontrol6 (= 4:6.6.5-1), sonic-libkfontinst6 (= 4:6.6.5-1), sonic-libkfontinstui6 (= 4:6.6.5-1), sonic-libklipper6 (= 4:6.6.5-1), sonic-libklookandfeel6 (= 4:6.6.5-1), sonic-libkworkspace6-6 (= 4:6.6.5-1), sonic-libnotificationmanager1 (= 4:6.6.5-1), sonic-libtaskmanager6 (= 4:6.6.5-1)
+Depends: libkf6itemmodels-dev (>= 6.22.0~), libsonicinterface-dev, qt6-base-dev (>= 6.10.0~), qt6-declarative-dev (>= 6.10.0~), sonic-libbatterycontrol6 (= 4:6.6.5-2), sonic-libkfontinst6 (= 4:6.6.5-2), sonic-libkfontinstui6 (= 4:6.6.5-2), sonic-libklipper6 (= 4:6.6.5-2), sonic-libklookandfeel6 (= 4:6.6.5-2), sonic-libkworkspace6-6 (= 4:6.6.5-2), sonic-libnotificationmanager1 (= 4:6.6.5-2), sonic-libtaskmanager6 (= 4:6.6.5-2)
 Conflicts: plasma-desktop-dev (<< 4:5.20), plasma-workspace-dev, qml6-module-org-kde-breeze-components, qml6-module-org-kde-notificationmanager, qml6-module-org-kde-plasma-clock, qml6-module-org-kde-plasma-lookandfeel, qml6-module-org-kde-plasma-workspace, qml6-module-org-kde-taskmanager
 Replaces: plasma-desktop-dev (<< 4:5.20)
-Provides: plasma-workspace-dev, qml6-module-org-kde-breeze-components (= 4:6.6.5-1), qml6-module-org-kde-notificationmanager (= 4:6.6.5-1), qml6-module-org-kde-plasma-clock (= 4:6.6.5-1), qml6-module-org-kde-plasma-lookandfeel (= 4:6.6.5-1), qml6-module-org-kde-plasma-workspace (= 4:6.6.5-1), qml6-module-org-kde-taskmanager (= 4:6.6.5-1)
+Provides: plasma-workspace-dev, qml6-module-org-kde-breeze-components (= 4:6.6.5-2), qml6-module-org-kde-notificationmanager (= 4:6.6.5-2), qml6-module-org-kde-plasma-clock (= 4:6.6.5-2), qml6-module-org-kde-plasma-lookandfeel (= 4:6.6.5-2), qml6-module-org-kde-plasma-workspace (= 4:6.6.5-2), qml6-module-org-kde-taskmanager (= 4:6.6.5-2)
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: libdevel
-Filename: pool/unstable/s/sonic-workspace/sonic-workspace-dev_6.6.5-1_arm64.deb
-Size: 57160
-SHA256: bdf2129f7877556a7c8f65ead53db628d7bd4f5f625b08e9585c9f4172bfea13
-SHA1: 09333a3adace009ff1003c6e9cf7a45f169e62ef
-MD5sum: d3571d817d89100d07a351915e64eb31
+Filename: pool/unstable/s/sonic-workspace/sonic-workspace-dev_6.6.5-2_arm64.deb
+Size: 57184
+SHA256: 71fcb0460989cf1cfcef737b066334feeee70c748c8a4f48eabf3f2920ffd2ee
+SHA1: 84967a54cf9d3461a08775a3fde760032c096736
+MD5sum: 91a09bfa3bed1f9f37255046e7d1dc50
 Description: Sonic Workspace development files
  Sonic Workspace is used as the base for Sonic Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
@@ -1522,22 +1522,22 @@ Description: Sonic Workspace development files
 
 Package: sonic-workspace-doc
 Source: sonic-workspace
-Version: 4:6.6.5-1
+Version: 4:6.6.5-2
 Architecture: all
 Maintainer: NexusSfan <nexussfan@duck.com>
 Installed-Size: 5231
 Conflicts: plasma-desktop-doc (<< 4:6.4.90~), plasma-workspace-data (<< 4:6.1.90~), plasma-workspace-doc
 Replaces: plasma-desktop-doc (<< 4:6.4.90~), plasma-workspace-data (<< 4:6.1.90~)
-Provides: plasma-workspace-doc (= 4:6.6.5-1)
+Provides: plasma-workspace-doc (= 4:6.6.5-2)
 Multi-Arch: foreign
 Homepage: https://invent.kde.org/plasma/plasma-workspace
 Priority: optional
 Section: doc
-Filename: pool/unstable/s/sonic-workspace/sonic-workspace-doc_6.6.5-1_all.deb
-Size: 3170636
-SHA256: ce8dba1b4af21f96c0af38d29b5fd3a89d9444c8935aeb130813601f237a5d68
-SHA1: f633e467f3161c2f6f58cc49bc630b89b315e826
-MD5sum: 193c141ce859095435634332412cd702
+Filename: pool/unstable/s/sonic-workspace/sonic-workspace-doc_6.6.5-2_all.deb
+Size: 3170776
+SHA256: d71a485c4c1dfc5d77b17e5ecd5e20fea24009ee1df94c8e3c92a5f7ab29b386
+SHA1: 99add01f61e5d24192740608557fa794621f37b6
+MD5sum: b6a81f24fdd57079d2a92c685d60279f
 Description: Sonic Workspace documentation
  Sonic Workspace is used as the base for Sonic Desktop, Mobile, and
  Bigscreen. It contains shared KCM configuration screens, applets as
