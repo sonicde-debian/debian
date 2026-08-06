@@ -4,7 +4,7 @@ Hash: SHA512
 Origin: SonicDE
 Label: SonicDE Debian Packages
 Codename: main
-Date: Tue, 28 Jul 2026 01:51:01 UTC
+Date: Thu, 06 Aug 2026 03:02:53 UTC
 Architectures: amd64 arm64
 Components: testing unstable
 Description: Debian repository for SonicDE.
@@ -15,11 +15,11 @@ MD5Sum:
  50ae6bd172537d78af3b2fc283242940 93872 testing/binary-arm64/Packages
  eef21cba73d788f85a210b71db86bd43 25931 testing/binary-arm64/Packages.gz
  f7ed296db40fdcf9044d7628d04d715b 130 testing/binary-arm64/Release
- 9b4b41504e3cd99f36fbc139abc0577f 93979 unstable/binary-amd64/Packages
- 9775a3ea4510f572a3f208675756e451 25944 unstable/binary-amd64/Packages.gz
+ b39eac639816f7dde3dbfd0b861d8e0a 95005 unstable/binary-amd64/Packages
+ 3fc8f9ee54745084cd0076c2e16b33fc 26018 unstable/binary-amd64/Packages.gz
  b2671b9460b26efc907f1f284a55afde 131 unstable/binary-amd64/Release
- c7b714a1f02ea793e5dac235033a27fb 93939 unstable/binary-arm64/Packages
- a6486f090c9d0bb372b9bf649d9c7343 25951 unstable/binary-arm64/Packages.gz
+ 8a9d960ad5e86e4bdbc1892189be98ea 94966 unstable/binary-arm64/Packages
+ 840b7d8ab7685478bceff050373cd605 26025 unstable/binary-arm64/Packages.gz
  228e3def6aa29516f64e5b1ad1797f7b 131 unstable/binary-arm64/Release
 SHA1:
  71342ea61dc6dfcdcfbbd082ff06a520fef98c05 93912 testing/binary-amd64/Packages
@@ -28,11 +28,11 @@ SHA1:
  560b08653c1caed5bcd746cd660208f5d9e03c62 93872 testing/binary-arm64/Packages
  b8ab9a830ffc3b0aabc65d2d62717d9e9a82a9d0 25931 testing/binary-arm64/Packages.gz
  65ccd5fd8109c462a1e174d5e565bcdb8922e97c 130 testing/binary-arm64/Release
- fc4ce70ede0770b455d227e3175372f1bfdeb9c7 93979 unstable/binary-amd64/Packages
- 12378b745c05d551c9dda4cb4a4d99e23e90b21f 25944 unstable/binary-amd64/Packages.gz
+ ba61c266736efad52e9a339415e64ca9d47bd3da 95005 unstable/binary-amd64/Packages
+ db2c85715ead5aa82ff7cfe4806ac834baaca1f2 26018 unstable/binary-amd64/Packages.gz
  1fa5b546678f3a58ad64a195c774f4ed56910862 131 unstable/binary-amd64/Release
- 605d9841f769b9a0e6652c895355e7cb92965111 93939 unstable/binary-arm64/Packages
- 2a0e432bf530a7624d4515c61e2ac2467c180e08 25951 unstable/binary-arm64/Packages.gz
+ d57ec4537f58ad98b0ebc711f1852517148705fb 94966 unstable/binary-arm64/Packages
+ 3c2561e893d88cf10c6617e9cd2093b8164db2dd 26025 unstable/binary-arm64/Packages.gz
  2650403919d2d7d016bb2896282b0f182f3461b6 131 unstable/binary-arm64/Release
 SHA256:
  28bf9234f5b302fc463f728f030b363f5bd20bd996a40225a11de110de1b3c19 93912 testing/binary-amd64/Packages
@@ -41,25 +41,25 @@ SHA256:
  b18548f084064f00ffe17f607a1bfc8ae1dd0302f7bca0efbe990b93728d7122 93872 testing/binary-arm64/Packages
  36d79abeb47b39e98d2d4952f5b002193731938beb8e49d126a0641b8b778e19 25931 testing/binary-arm64/Packages.gz
  5d4fcae6dba7dde71b673dc1d83e30307b20c93e09b648314140b34cd8f8c88c 130 testing/binary-arm64/Release
- 1911b9220fbcf89d813b6bf0bf6bafdaad638c3aac849bff64e54dadc0b59d6a 93979 unstable/binary-amd64/Packages
- d5b941f65ef4b38c807fff902034e441c5786699eea2b85018cea7a2c24ad380 25944 unstable/binary-amd64/Packages.gz
+ 1c0fd88e8859d59c0039bb6b4a4e90a5dd6fe5b572870d28f6d6464bb2b64280 95005 unstable/binary-amd64/Packages
+ aca9b8468d639ad9a6ad8505b5a00c7879b04088b6065111db1bbb236d885cbf 26018 unstable/binary-amd64/Packages.gz
  6fc3bb415639a07fde971761423b1b3bd3352c86d43838d7a1f161120dff00b0 131 unstable/binary-amd64/Release
- 188983a4b898ffcc7f77dd50c1d088bd9e12261fb27b5435e64bb7633be860c7 93939 unstable/binary-arm64/Packages
- 95c7c4ca55290f67fcedeb464a3dde4279728dc66d1fcadc6cb3d50ddfd1e991 25951 unstable/binary-arm64/Packages.gz
+ 4268920104afe65707595ce61f8a3cfa11b3e7d1cd8195393daabaf631f66640 94966 unstable/binary-arm64/Packages
+ 363acfe71ad19a458ec939c6242afffd79b8d5e342009ddbcc7bc961c6b12660 26025 unstable/binary-arm64/Packages.gz
  a3d48a2c9be4124d097dd240fd5a0668d6654f34e04c3fb2ac3a7b1805f34726 131 unstable/binary-arm64/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCgAdFiEEIgdakZ2usXfodMXR15zW8bUjlPoFAmpoCwYACgkQ15zW8bUj
-lPr/LQ/+Pf1d8NKQXjKUfwEHr/UAjbCdHZlUwNTOh9bgzOCm4I63kgNZIjdteUSI
-/d1ePLQNUzB7gTf4ycTe0H9LEFJICPYe8fdks7hrAoKOu2na/tx+D/tHA807dIAQ
-uXBRbA0OyzL604YePJPd1bPtj1dYuRuw6ByP96uq98o1KSnWrVLIwiAl8koUrm2N
-ZtbDC1siwCAR/1oidtz2Qf6MwCHkYkZSJHgAX5nZ1Xrjgounwb7D0GqEGM+YMGAA
-HOrI/vkN8bG420DkxELMObkRu41PWiiDko6hIPvnSNrhgHNYiE7up5sNuWsE7aER
-2M/wfRZ4zPZprmjBscEhW8pW5QU+QWGjN+UVnSbqvyFZFObslbf6a39EZCGU/gcw
-EkhPH8ccTJLixpnyq7TkeSToAv9ggrXYN3b9/gjKtOf4nq5jFspVhQsh88nHOwp3
-jHmBb3vaErtiIVPx6Yvhqc68nChsM1b/Ozj2zYDC9R47521jhNT7yQMgoUFOmg7P
-QDn3sYkcK+xdnKSsqcTZFnDHM42fup8SjtfKv6zOGVQdCUZt2TUKRVhc8wryb33e
-tcKGKnooTXEe+RKqyFAoyQM12SbMlWJCTYgm7fv/OCIbP8CF5G5tRrRdb1VQipBQ
-AbN04KlMq6CgLJm7QJCSc0mxpHJkIrt2c78Ibe5kMWQnMgib/FM=
-=k5er
+iQIzBAEBCgAdFiEEIgdakZ2usXfodMXR15zW8bUjlPoFAmpz+V4ACgkQ15zW8bUj
+lPrMCA//e/vm2OAF2kpofvo6KVqukj4wWZeQ55sjWZRQQWRYqpaiualALa2UruTT
+M4E71xO+W9kDFafrYcXmemH9mpY2VQOXZEzGzVIyAiA2SJ/9Pnodtcv1h1ZCDaBn
+r1fZ6pptC8w6XGQUT3v8hpVXcQ11Gdev65pkWfuodmJUrCdLsciEcNrbqv6KvEVF
+ncCUu1yTuQZXr+QiHvw2/okFDEtmSBe7gGNhAUrTqVO/FYsFxH0hkPVh/o2/v8It
++8bWEMwIttxayN/YVocOZgSsW7JNpnvGUBnqt8E0B/iKgbyECS62bKu6CM/F+ZHN
+G9CY4HfZtIRAYd8KfH/IaO1lx1eE+gt2C5fqdJK2eDelnOSeAd4kZHDybP+yqFAT
+9cDJ9u0g2blyKK39eaWuK4zfOmoRGMx2nf/3GkHdsdKavlhVJDmJM9s2NBIjG3NX
+Gz2TIWs9dm9tPCFDAYTr09e4wqY7ghGNtB+o9eZzHR4YFtSQrrsN6Khq49aYWo7I
+4iHYH/m7BzYUcL7LyQj5I18TQ5i1368nOsj8k4/uFwFeW9clMhRQX1SEDHgWul6p
+/WMkJhWl81klvdHzQxDzdmujbCK4FsMpdzW1ZTn+kSsw+Zy+LxFcmGVFA9QaiGrz
+LBabj+VDUp9KUQlOA2F9sDfrT8LvTSFm9+QEYgEDpQ9LZW3GOJ8=
+=X9RL
 -----END PGP SIGNATURE-----
